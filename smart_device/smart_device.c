@@ -12,7 +12,7 @@
 bool uecho_low_voltage_propertyrequesthandler(uEchoObject *obj, uEchoProperty *prop, uEchoEsv esv, size_t pdc, byte *edt)
 {
 
-    printf("hello \n");
+    //printf("hello \n");
 
     byte status;
 
@@ -31,23 +31,11 @@ bool uecho_low_voltage_propertyrequesthandler(uEchoObject *obj, uEchoProperty *p
     switch (status)
     {
     case low_volatage_Kw:
-        printf("vayo vane huncha\n");
+        printf("\n ToDo:need to send dataframe message of CT sensor \n");
 
-        /*
-        #if defined(UECHO_PLATFORM_RASPBIAN)
-                system("echo \"1\" > /sys/class/gpio/gpio" RASPBERRY_PI_LIGHT_GPIO_NO "/value");
-        #endif
-                break;
-            case LIGHT_PROPERTY_POWER_OFF:
-                printf("POWER = OFF\n");
-        #if defined(UECHO_PLATFORM_RASPBIAN)
-                system("echo \"0\" > /sys/class/gpio/gpio" RASPBERRY_PI_LIGHT_GPIO_NO "/value");
-        #endif
-                break;
-        */
         break;
     default:
-        printf("POWER = %02X\n", status);
+        printf("\nRequest Process = %02X\n", status);
         break;
     }
 
