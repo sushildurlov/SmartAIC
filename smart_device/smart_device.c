@@ -31,8 +31,10 @@ bool uecho_low_voltage_propertyrequesthandler(uEchoObject *obj, uEchoProperty *p
     switch (status)
     {
     case low_volatage_Kw:
-        printf("\n ToDo:need to send dataframe message of CT sensor \n");
+        printf("\n TODO:need to send dataframe message of CT sensor \n");
 
+    // TODO: need to send dataframe message of CT sensor
+    // 
         break;
     default:
         printf("\nRequest Process = %02X\n", status);
