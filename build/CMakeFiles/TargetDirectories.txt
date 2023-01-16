@@ -1,0 +1,3 @@
+/usr/src/CT/SmartAIC/build/CMakeFiles/rebuild_cache.dir
+/usr/src/CT/SmartAIC/build/CMakeFiles/edit_cache.dir
+/usr/src/CT/SmartAIC/build/CMakeFiles/CT.dir

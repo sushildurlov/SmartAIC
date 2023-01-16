@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/CT.dir/src/CT/Snsrctlapp.c.o CMakeFiles/CT.dir/src/CT/ctdata.c.o -o CT  -lwiringPi -lpq 
