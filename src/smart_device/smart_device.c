@@ -1,4 +1,3 @@
-
 #include <signal.h>
 #include <unistd.h>
 #include <uecho/device.h>
@@ -85,7 +84,6 @@ uEchoObject *uecho_low_volage()
 float SmartDevice::get_ct_value(const int ct_port)
 {
     uecho_low_volage();
-
     return 0.0;
 };
 */

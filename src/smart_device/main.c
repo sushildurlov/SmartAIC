@@ -1,5 +1,5 @@
 
-#include "smart_device.c"
+#include "smart_device_header.h"
 #include <uecho/device.h>
 #include <uecho/object.h>
 #include <uecho/node.h>
