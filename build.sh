@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#build project wise executable file using individual CMakeLists.txt
+#modify if need
+#run command sudo chmod +x build.sh to add the executable permission
+
 #CT
 cd src/CT
 sudo cmake . && make 
